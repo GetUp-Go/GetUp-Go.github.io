@@ -1,0 +1,174 @@
+/*!
+ * Start Bootstrap - Portfolio Item (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    /*background-color: darkgray;*/
+    background-color: beige;
+    min-width: 366px;
+    font-family: Verdana;
+}
+
+
+.navbar-nav p {
+    color: black;;
+    margin-left: 15px;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+  border-color:black;
+}
+
+.btn-circle:focus,
+.btn-circle:active{
+    text-decoration: none;
+}
+
+
+.btn-circle.btn-lg1 {
+  width: 50px;
+  height: 50px;
+  padding: 10px 10px;
+  font-size: 25px;
+  line-height: 1.33;
+  border-radius: 80px;
+  margin-top: 100px;
+  background-color: #b3d9ff;
+    border: none;
+}
+
+.btn-circle.btn-lg2 {
+  width: 50px;
+  height: 50px;
+  padding: 10px 10px;
+  font-size: 25px;
+  line-height: 1.33;
+  border-radius: 80px;
+  background-color: #b3d9ff;
+    border: none;
+}
+
+.btn-circle.btn-lg3 {
+  width: 50px;
+  height: 50px;
+  padding: 10px 10px;
+  font-size: 25px;
+  line-height: 1.33;
+  border-radius: 80px;
+  margin-top: -20px;
+  background-color: #b3d9ff;
+  border: none;
+}
+
+.btn-circle.btn-lg4 {
+  width: 50px;
+  height: 50px;
+  padding: 10px 10px;
+  font-size: 25px;
+  line-height: 1.33;
+  border-radius: 80px;
+  margin-right: 20px;
+  background-color: #9FFE57;
+}
+
+.btn-lg5{
+    font-size:1.25rem;
+    font-weight: bold;
+    border-radius:.3rem;
+    width: 100px;       
+}
+
+.btn-circle.btn-lg6 {
+  width: 50px;
+  height: 50px;
+  padding: 10px 10px;
+  font-size: 25px;
+  line-height: 1.33;
+  border-radius: 80px;
+  margin-right: 20px;
+  background-color: #ffbb33;
+;
+  border: none;
+}
+
+.btn-circle.btn-xl1 {
+  width: 85px;
+  height: 85px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 80px;
+  margin-right : 20px;
+  background-color: darkorange;
+  border:none;
+}
+
+.btn-circle.btn-xl2 {
+  width: 120px;
+  height: 120px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 80px;
+  background-color: darkorange;
+  border:none;
+  margin-top: -50px;
+}
+
+.btn-main {
+  width: 160px;
+  height: 160px;
+  padding: 10px 16px;
+  line-height: 3;
+  border-radius: 80px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  background-color: darkorange;
+  border:none;
+}
+
+.nextplanbtn {
+  width: 300px;
+  height: 25px;
+  padding: 0px 0px;
+  line-height: 1;
+  border-radius: 0px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  background-color: #65BF98;
+  color:black;
+}
+
+.btn-info,
+.btn-info:hover,
+.btn-info:active {
+background-color: darkorange;
+ color:black;
+ border-color:#e65c00
+}
+
+
+.btn-plans {
+  width: 100px;
+  height: 25px;
+  padding: 0px 0px;
+  line-height: 1;
+  border-radius: 0px;
+  background-color: #65BF98;
+  color:black;
+}
+
+
+footer {
+    margin: 50px 0;
+}

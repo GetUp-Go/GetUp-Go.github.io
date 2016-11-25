@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Portfolio Item - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link href="css/portfolio-item.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body style="max-width: 100%; overflow-x: hidden;">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style=";background-color: #ffbb33; border:none;">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" style="background-color: #ffbb33; border-color:#e68a00">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><p style="color:black;">&#9733;&nbsp;&nbsp;Akos</p></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <p>Level: 2</p>
+                    </li>
+                    <li>
+                        <p>Ranking: 47</p>
+                    </li>
+                    <li>
+                        <p>Exp: 500/1200<p>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+       
+        
+           <!-- Row 1 -->
+       <div class="row" style="margin-left:1%;">
+            <form>
+                 <h5 style="color:black;">Search:</h5>
+                 <input type="text" name="search" style = "border-color: darkgrey; font-color: black"><br>
+                </form>
+        </div><br>
+        <!-- /.row -->
+        
+        
+         <!-- Row 2 -->
+        <div class="row" >
+            <a href="#"><img id="picture" class="img-fluid" src="./imgs/going.gif" style="width:96%; height:220px; margin-left:2%; margin-right:2%;"></a>
+
+        </div><br>
+        <!-- /.row -->
+        
+    <!--Carousel-->
+
+    <div class="span8">
+    
+    <h5 style="color:white;">Categories</h5>
+    
+    <div class="well" style="margin-left:-5%; margin-right:-5%;">
+     
+    <div id="myCarousel" class="carousel slide">
+     
+    <!--<ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol> -->
+     
+    <!-- Carousel items -->
+    <div class="carousel-inner">
+        
+    <div class="item active">
+        <div class="row-fluid">
+         <a href="#x" style="margin-left:15%; margin-right:5%;"><button type="button" onclick="changeImage(food)" class="btn btn-warning btn-circle btn-lg6" ><img src="./imgs/food1.png" style="width:30px; height:32px; padding:2px;"></button></a>
+         <a href="#x" style="margin-right:5%;"><button type="button" onclick="changeImage()" class="btn btn-warning btn-circle btn-lg6"><img src="./imgs/park1.png" style="width:30px; height:32px; padding:2px;"></button></a>
+         <a href="#x" style="margin-right:5%;"><button type="button" onclick="changeImage(theater)" class="btn btn-warning btn-circle btn-lg6"><img src="./imgs/theater1.png" style="width:30px; height:32px; padding:2px;"></i></button></a>
+        </div><!--/row-fluid-->
+    </div><!--/item-->
+     
+    <div class="item">
+        <div class="row-fluid">
+            <a href="#x" style="margin-left:15%; margin-right:5%;"><button type="button" onclick="changeImage(gym)" class="btn btn-warning btn-circle btn-lg6" ><img src="./imgs/gym1.png" style="width:30px; height:35px; padding:2px;"></button></a>
+         <a href="#x" style="margin-right:5%;"><button type="button" class="btn btn-warning btn-circle btn-lg6"><img src="./imgs/beach1.png" style="width:30px; height:32px; padding:2px;"></button></a>
+         <a href="#x" style="margin-right:5%;"><button type="button" onclick="changeImage(museum)" class="btn btn-warning btn-circle btn-lg6"><img src="./imgs/museum1.png" style="width:30px; height:32px; padding:2px;"></button></a>
+        </div><!--/row-fluid-->
+    </div><!--/item-->
+        
+    </div><!--/carousel-inner-->
+     
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev" style="margin-left:-5%;">‹</a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next" style="margin-right:-5%;">›</a>
+    </div><!--/myCarousel-->
+     
+    </div><!--/well-->
+  </div>
+       
+            <div style="text-align:center;">
+                <a href="./index.html"><button class = "btn btn-info" style="width:100px;" >Ok</button></a>
+            </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+   
+
+</body>
+
+</html>
