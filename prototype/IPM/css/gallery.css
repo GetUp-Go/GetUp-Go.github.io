@@ -1,0 +1,107 @@
+Bootsnipp
+Tools 
+Snippets 
+Register
+Login
+
+"List Grid View"
+Bootstrap 3.0.0 Snippet by BhaumikPatel
+3.0.0 jQuery lists gallery shop user interface
+Free Website & Server Monitoring
+Monitor 1 website or server and be notified of issues, all for free.
+ PreviewHTMLCSSJS    Fork this  151.5K   235 Fav  
+
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+.glyphicon { margin-right:5px; }
+.thumbnail
+{
+    margin-bottom: 20px;
+    padding: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+.item.list-group-item
+{
+    float: none;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.item.list-group-item:nth-of-type(odd):hover,.item.list-group-item:hover
+{
+    background: #428bca;
+}
+.item.list-group-item .list-group-image
+{
+    margin-right: 10px;
+}
+.item.list-group-item .thumbnail
+{
+    margin-bottom: 0px;
+}
+.item.list-group-item .caption
+{
+    padding: 9px 9px 0px 9px;
+}
+.item.list-group-item:nth-of-type(odd)
+{
+Similar snippets: See More
+1.7K  2 
+List Grid View
+
+
+1.4K  1 
+List Grid View
+
+
+977  0 
+List Grid View
+
+
+858  0 
+List Grid View
+
+
+Free Website & Server Monitoring
+Monitor 1 website or server and be notified of issues, all for free.
+Comments:
+
+ Follow @bootsnipp  Tweet
+Bootsnipp.com © 2015 Dan's Tools | Site Privacy policy | Advertise | Featured snippets are MIT license.
