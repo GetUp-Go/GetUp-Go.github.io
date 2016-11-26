@@ -99,17 +99,17 @@
         
     <div class="item active">
         <div class="row-fluid">
-         <a href="#x" style="margin-left:15%; margin-right:5%;"><button type="button" onclick="changeImage(food);" class="btn btn-warning btn-circle btn-lg6" ><img src="./imgs/food1.png" style="width:30px; height:32px; padding:2px;"></button></a>
-         <a href="#x" style="margin-right:5%;"><button type="button" onclick="changeImage()" class="btn btn-warning btn-circle btn-lg6"><img src="./imgs/park1.png" style="width:30px; height:32px; padding:2px;"></button></a>
-         <a href="#x" style="margin-right:5%;"><button type="button" onclick="changeImage(theater)" class="btn btn-warning btn-circle btn-lg6"><img src="./imgs/theater1.png" style="width:30px; height:32px; padding:2px;"></i></button></a>
+         <a href="#x" style="margin-left:15%; margin-right:5%;"><button type="button" onclick="changeImage('food');" class="btn btn-warning btn-circle btn-lg6" ><img src="./imgs/food1.png" style="width:30px; height:32px; padding:2px;"></button></a>
+         <a href="#x" style="margin-right:5%;"><button type="button" onclick="changeImage('park')" class="btn btn-warning btn-circle btn-lg6"><img src="./imgs/park1.png" style="width:30px; height:32px; padding:2px;"></button></a>
+         <a href="#x" style="margin-right:5%;"><button type="button" onclick="changeImage('theater')" class="btn btn-warning btn-circle btn-lg6"><img src="./imgs/theater1.png" style="width:30px; height:32px; padding:2px;"></i></button></a>
         </div><!--/row-fluid-->
     </div><!--/item-->
      
     <div class="item">
         <div class="row-fluid">
-            <a href="#x" style="margin-left:15%; margin-right:5%;"><button type="button" onclick="changeImage(gym)" class="btn btn-warning btn-circle btn-lg6" ><img src="./imgs/gym1.png" style="width:30px; height:35px; padding:2px;"></button></a>
-         <a href="#x" style="margin-right:5%;"><button type="button" class="btn btn-warning btn-circle btn-lg6"><img src="./imgs/beach1.png" style="width:30px; height:32px; padding:2px;"></button></a>
-         <a href="#x" style="margin-right:5%;"><button type="button" onclick="changeImage(museum)" class="btn btn-warning btn-circle btn-lg6"><img src="./imgs/museum1.png" style="width:30px; height:32px; padding:2px;"></button></a>
+            <a href="#x" style="margin-left:15%; margin-right:5%;"><button type="button" onclick="changeImage('gym')" class="btn btn-warning btn-circle btn-lg6" ><img src="./imgs/gym1.png" style="width:30px; height:35px; padding:2px;"></button></a>
+         <a href="#x" style="margin-right:5%;"><button type="button" onclick="changeImage('beach')" class="btn btn-warning btn-circle btn-lg6"><img src="./imgs/beach1.png" style="width:30px; height:32px; padding:2px;"></button></a>
+         <a href="#x" style="margin-right:5%;"><button type="button" onclick="changeImage('museum')" class="btn btn-warning btn-circle btn-lg6"><img src="./imgs/museum1.png" style="width:30px; height:32px; padding:2px;"></button></a>
         </div><!--/row-fluid-->
     </div><!--/item-->
         
@@ -123,7 +123,7 @@
   </div>
     
           <div style="text-align:center;">
-            <a href="./index.html"><button class = "btn btn-info" style="width:100px;" >Back</button></a>
+            <a href="./index.html"><button class = "btn btn-info" style="width:100px;" value="Back"></button></a>
             </div>
         <!-- /.row -->
        
@@ -135,8 +135,9 @@
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
       <script>
-          var map;
+          
     function changeImage(map){
+        
         $("#picture").attr("src", "./imgs/"+map+"map.png");
     }
     </script>
