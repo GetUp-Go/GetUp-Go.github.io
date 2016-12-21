@@ -71,30 +71,49 @@
         
          <!-- Row 1 -->
         <div class="row">
-            <select id= "projectionmenu" size ="1" style="width:80%; margin-left:10%; margin-right:10%;">
-                    <option value = "0"> Today </option>
-                    <option value = "1"> FCT</option>
-            </select>
-            </br></br>
-            <select id= "projectionmenu" size ="1" style="width:80%; margin-left:10%; margin-right:10%;">
-                    <option value = "0"> Tomorrow </option>
-                    <option value = "1"> Dinner with A</option>
-            </select>
-            </br></br>
-            <select id= "projectionmenu" size ="1" style="width:80%; margin-left:10%; margin-right:10%;">
-                    <option value = "0"> 25 Dez </option>
-                    <option value = "1"> É Natal É natal</option>
-            </select>
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Today</a>
+                    </h4>
+                  </div>
+                  <div id="collapse1" class="panel-collapse collapse in">
+                    <div class="panel-body">FCT</div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Tomorrow</a>
+                    </h4>
+                  </div>
+                  <div id="collapse2" class="panel-collapse collapse">
+                    <div class="panel-body">A's Birthday</div>
+                    <div class="panel-body">Dinner with A</div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">25 Dez</a>
+                    </h4>
+                  </div>
+                  <div id="collapse3" class="panel-collapse collapse">
+                    <div class="panel-body">It's Christmas!</div>
+                  </div>
+                </div>
+              </div> 
 
-        </div><br>
-        <!-- /.row -->
-        
+                    </div><br>
+                    <!-- /.row -->
 
-       <!-- Row 2 -->
-        <div class ="row" style = "text-align: center" ><br>
-            <a href="./gonowmap.html"><button class = "btn btn-info" style="width:100px;" >New Plan</button></a>&nbsp;&nbsp;  
-            <a href="./index.html"><button class = "btn btn-info" style="width:100px;" >Back</button></a>
-        </div>
+
+                   <!-- Row 2 -->
+                    <div class ="row" style = "text-align: center" ><br>
+                        <a href="./gonowmap.html"><button class = "btn btn-info" style="width:100px;" >New Plan</button></a>&nbsp;&nbsp;  
+                        <a href="./index.html"><button class = "btn btn-info" style="width:100px;" >Back</button></a>
+                    </div>
        <!-- /.row -->
 
 

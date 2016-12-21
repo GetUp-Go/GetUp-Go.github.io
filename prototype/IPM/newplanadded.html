@@ -27,7 +27,7 @@
 
 </head>
 
-<body>
+<body onload="lol()">
 
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -70,23 +70,40 @@
         </div>
         
          <!-- Row 1 -->
-        <div class="row">
-            <select id= "projectionmenu" size ="1" style="width:80%; margin-left:10%; margin-right:10%;">
-                    <option value = "0"> Today </option>
-                    <option value = "1"> FCT</option>
-                    <option value = "1"> Teatro</option>
-            </select>
-            </br></br>
-            <select id= "projectionmenu" size ="1" style="width:80%; margin-left:10%; margin-right:10%;">
-                    <option value = "0"> Tomorrow </option>
-                    <option value = "1"> Dinner with A</option>
-            </select>
-            </br></br>
-            <select id= "projectionmenu" size ="1" style="width:80%; margin-left:10%; margin-right:10%;">
-                    <option value = "0"> 25 Dez </option>
-                    <option value = "1"> É Natal É natal</option>
-            </select>
-
+        <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Today</a>
+                    </h4>
+                  </div>
+                  <div id="collapse1" class="panel-collapse collapse in">
+                    <div class="panel-body">FCT</div>
+                    <div class = "panel-body">Teatro</div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Tomorrow</a>
+                    </h4>
+                  </div>
+                  <div id="collapse2" class="panel-collapse collapse">
+                    <div class="panel-body">A's Birthday</div>
+                    <div class="panel-body">Dinner with A</div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">25 Dez</a>
+                    </h4>
+                  </div>
+                  <div id="collapse3" class="panel-collapse collapse">
+                    <div class="panel-body">It's Christmas!</div>
+                  </div>
+                </div>
+              </div> 
         </div><br>
         <!-- /.row -->
         
@@ -97,8 +114,41 @@
             <a href="./index.html"><button class = "btn btn-info" style="width:100px;" >Back</button></a>
         </div>
        <!-- /.row -->
-
-
+       <div class="modal fade" id="myModal_2" role="dialog">
+                <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            
+                        </div>
+                        <div class="modal-body">
+                            <p> You have sent an Invitation to Cláudio for your event </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" style="float:center"class="btn btn-default" data-dismiss="modal">OK</button>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+       <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            
+                        </div>
+                        <div class="modal-body">
+                            <p> You have added a new Event </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" style="float:center"class="btn btn-default" data-dismiss="modal" data-toggle="modal" data-target="#myModal_2">OK</button>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button id="hidden_1" style="visibility:hidden" type="button" data-toggle="modal" data-target="#myModal">Save</button>
+            
     </div>
     <!-- /.container -->
 
@@ -111,3 +161,9 @@
 </body>
 
 </html>
+
+<script>
+    function lol(){
+        $("#hidden_1").click();
+    }
+</script>
